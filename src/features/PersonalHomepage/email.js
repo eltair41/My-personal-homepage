@@ -1,0 +1,1 @@
+export const email = "frontend.galera@gmail.com";

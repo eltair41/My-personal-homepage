@@ -1,5 +1,6 @@
 import { Wrapper, Photo, ThisIs, Name, Summary, StyledButton, Icon } from "./styled";
 import charlesGaleraProfile from "./profile.jpg";
+import { email } from "../email";
 
 const MainInformation = () => {
   return (
@@ -9,10 +10,10 @@ const MainInformation = () => {
         <ThisIs>This Is</ThisIs>
         <Name>Charles Galera</Name>
         <Summary>
-          I am a dynamically developing Frontend Developer 
+          I am a dynamically developing Frontend Developer
           looking and ready for new challenges and jobs opportunities.
         </Summary>
-        <StyledButton>
+        <StyledButton href={`mailto:${email}`} title={email}>
           <Icon />
           Hire Me
         </StyledButton>
