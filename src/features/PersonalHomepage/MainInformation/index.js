@@ -1,4 +1,4 @@
-import { Wrapper, Photo, ThisIs, Name, Summary } from "./styled";
+import { Wrapper, Photo, ThisIs, Name, Summary, StyledButton, Icon } from "./styled";
 import charlesGaleraProfile from "./profile.jpg";
 
 const MainInformation = () => {
@@ -12,6 +12,10 @@ const MainInformation = () => {
           I am a dynamically developing Frontend Developer 
           looking and ready for new challenges and jobs opportunities.
         </Summary>
+        <StyledButton>
+          <Icon />
+          Hire Me
+        </StyledButton>
       </div>
     </Wrapper>
   )

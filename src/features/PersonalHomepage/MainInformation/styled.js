@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import { themeLight } from "../../../core/App/theme";
+import { ButtonLink } from "../ButtonLink";
+import { ReactComponent as EnvelopeIcon } from "./envelope.svg";
 
 export const Wrapper = styled.header`
   margin-top: -30px;
@@ -62,4 +63,19 @@ export const Summary = styled.p`
     font-size: 16px;
     max-width: 570px;
   }
+`;
+
+export const StyledButton = styled(ButtonLink)`
+  display: inline-flex;
+  margin-top: 32px;
+  align-items: center;
+  cursor: pointer;
+
+  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    margin-top: 24px;
+  }
+`;
+
+export const Icon = styled(EnvelopeIcon)`
+  margin-right: 16px;
 `;
