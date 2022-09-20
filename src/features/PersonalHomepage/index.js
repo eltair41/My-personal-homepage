@@ -3,6 +3,7 @@ import MainInformation from "./MainInformation";
 import { Container } from "./styled";
 import Skills from "./Skills"
 import { skills, newSkills } from "./skillsData";
+import Footer from "./Footer";
 
 const PersonalHomepage = () => {
   return (
@@ -20,6 +21,7 @@ const PersonalHomepage = () => {
           skills={newSkills}
         />
       </main>
+      <Footer />
     </Container>
   )
 };
