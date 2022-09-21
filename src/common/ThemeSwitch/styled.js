@@ -13,6 +13,7 @@ export const Button = styled.button`
   background: none;
   color: inherit;
   outline-offset: 8px;
+  cursor: pointer;
 `;
 
 export const Text = styled.span`
