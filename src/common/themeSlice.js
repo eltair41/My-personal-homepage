@@ -12,7 +12,9 @@ const themeSlice = createSlice({
   },
 });
 
-export const { toggleTheme } = themeSlice.actions;
+export const {
+  toggleTheme,
+} = themeSlice.actions;
 
 const selectThemeState = state => state.theme;
 
