@@ -1,5 +1,5 @@
 import { takeLatest, call, put, delay } from "redux-saga/effects";
-import { downloadRepositories } from "./PersonalHomepageAPI";
+import { downloadRepositories } from "./personalHomepageAPI";
 import { downloadRepositoriesError, downloadRepositoriesPending, downloadRepositoriesSucces } from "./personalHomepageSlice";
 
 function* downloadRepositoriesHandler({ payload: username }) {
