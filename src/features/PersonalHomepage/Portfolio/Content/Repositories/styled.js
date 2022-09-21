@@ -58,7 +58,7 @@ export const LinksWrapper = styled.dl`
   margin-bottom: 0;
   display: grid;
   grid-gap: 8px;
-  line-height: 1.6px;
+  line-height: 1.6;
 
   @media(max-width: ${({theme}) => theme.breakpoints.mobileMax}px) {
     font-size: 14px;
