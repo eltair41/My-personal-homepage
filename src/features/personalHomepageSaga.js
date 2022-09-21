@@ -8,7 +8,7 @@ function* downloadRepositoriesHandler({ payload: username }) {
     const fetchRepositories = yield call(downloadRepositories, username);
     yield put(downloadRepositoriesSucces(fetchRepositories));
   } catch (error) {
-    put(downloadRepositoriesError());
+    yield put(downloadRepositoriesError());
   }
 }
 
