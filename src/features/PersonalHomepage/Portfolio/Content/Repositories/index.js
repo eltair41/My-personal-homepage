@@ -1,8 +1,8 @@
 import { Descripiton, Link, LinkRow, LinksWrapper, LinkValue, List, ProjectName, TileItem } from "./styled";
 
 const Repositories = ({ repositories }) => (
-  <LIst>
-    {repositories.map({ id, name, description, homepage, html_url }) => (
+  <List>
+    {repositories.map(({ id, name, description, homepage, html_url }) => (
     <TileItem key={id}>
       <ProjectName>{name}</ProjectName>
       <Descripiton>{description}</Descripiton>
@@ -35,8 +35,9 @@ const Repositories = ({ repositories }) => (
         </LinkRow>
       </LinksWrapper>
     </TileItem>
-    )}
-  </LIst>
+    ))}
+  </List>
 );
 
+export default Repositories;
   
