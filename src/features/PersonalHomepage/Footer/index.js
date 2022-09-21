@@ -13,7 +13,7 @@ const Footer = () => {
           </Email>
         </EmailWrapper>
         <Paragraph>
-          I looking forward to refining and learning new skills at FrontEnd.
+          I"m looking forward to improving and learning new skills at FrontEnd.
           If you want to give me a chance to demonstrate my knowledge and hire me, please contact me by e-mail or other way.
           I am gladly waiting for any challenges and job opportunities.
         </Paragraph>
