@@ -44,7 +44,7 @@ export const ProjectName = styled.h3`
 `;
 
 export const Descripiton = styled.p`
-  line-height: 1.4;
+  line-height: 1.6;
   margin-top: 24px;
 
   @media(max-width: ${({theme}) => theme.breakpoints.mobileMax}px) {
