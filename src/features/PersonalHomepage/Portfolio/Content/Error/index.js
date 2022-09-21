@@ -1,7 +1,7 @@
 import { Header, Wrapper, Text } from "./styled";
 import { ReactComponent as WarningIcon } from "./warning.svg";
 import { ButtonLink } from "../../../ButtonLink";
-import { username } from "../../githubUsername";
+import { githubUsername } from "../../githubUsername";
 
 const Error = () => {
   return (
@@ -13,8 +13,8 @@ const Error = () => {
         You&nbsp;can check them directly on GitHub.
       </Text>
       <ButtonLink
-        href={`https://github.com/${username}`}
-        title={`https://github.com/${username}`}
+        href={`https://github.com/${githubUsername}`}
+        title={`https://github.com/${githubUsername}`}
         target="_blank"
       >
         Go to GitHub
