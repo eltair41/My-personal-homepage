@@ -4,6 +4,7 @@ import { Container } from "./styled";
 import Skills from "./Skills"
 import { skills, newSkills } from "./skillsData";
 import Footer from "./Footer";
+import Portfolio from "./Portfolio";
 
 const PersonalHomepage = () => {
   return (
@@ -20,6 +21,7 @@ const PersonalHomepage = () => {
           title={"What I want to learn next"}
           skills={newSkills}
         />
+        <Portfolio />
       </main>
       <Footer />
     </Container>
