@@ -8,7 +8,7 @@
 - [Available Scripts](#available-scripts)
 
 ## Demo
-https://eltair41.github.io/My-personal-homepage/
+https://galerafrontend.github.io/My-personal-homepage/
 
 ## General info
 This is my personal homepage that lists all the skills I have learned and the projects I have done. Feel free to browse my portfolio 😁
