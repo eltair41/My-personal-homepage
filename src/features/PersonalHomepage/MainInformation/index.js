@@ -1,5 +1,5 @@
 import { Wrapper, Photo, ThisIs, Name, Summary, StyledButton, Icon } from "./styled";
-import charlesGaleraProfile from "./profile.jpg";
+import charlesGaleraProfile from "./charles.jpeg";
 import { email } from "../email";
 
 const MainInformation = () => {
