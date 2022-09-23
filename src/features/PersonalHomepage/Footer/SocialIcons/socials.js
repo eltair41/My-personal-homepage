@@ -11,7 +11,7 @@ export const socials = [
   },
   {
     name: "LinkedIn",
-    url: "https://linkedin.com",
+    url: "https://linkedin.com/in/karol-galera-567690251",
     Icon: styleIcon(LinkedInIcon),
   },
   {
