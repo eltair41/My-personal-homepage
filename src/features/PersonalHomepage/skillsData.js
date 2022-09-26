@@ -8,6 +8,7 @@ export const skills = [
   "GitHub Pull Request & Review",
   "React Hooks",
   "NPM",
+  "Styled-Components",
   "React Redux",
   "Redux (Toolkit)",
   "Immutability",
