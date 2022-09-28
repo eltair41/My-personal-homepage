@@ -1,4 +1,8 @@
-import { downloadRepositoriesPending, selectRepositories, selectRepositoriesStatus } from "../../personalHomepageSlice";
+import {
+  downloadRepositoriesPending,
+  selectRepositories,
+  selectRepositoriesStatus
+} from "../../personalHomepageSlice";
 import { useSelector, useDispatch } from "react-redux";
 import { MyRecentProjects, Section, StyledIcon, Header } from "./styled";
 import { SubHeader } from "../SubHeader";
