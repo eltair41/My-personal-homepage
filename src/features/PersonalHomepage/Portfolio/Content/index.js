@@ -13,6 +13,9 @@ const Content = ({ status, repositories }) => {
 
     case "succes":
       return <Repositories repositories={repositories} />
+
+    default:
+      throw new Error(`invalid status: ${status}`);
   }
 };
 
