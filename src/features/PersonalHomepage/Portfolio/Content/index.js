@@ -6,16 +6,15 @@ const Content = ({ status, repositories }) => {
   
   switch (status) {
     case "pending":
-      return <Loading />
+      return <Loading />;
 
     case "error":
-      return <Error />
+      return <Error />;
 
     case "succes":
-      return <Repositories repositories={repositories} />
+      return <Repositories repositories={repositories} />;
 
     default:
-      throw new Error(`invalid status: ${status}`);
   }
 };
 
