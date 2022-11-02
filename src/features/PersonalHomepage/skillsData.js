@@ -5,6 +5,7 @@ export const skills = [
   "Responsive web Design",
   "React",
   "Java Script: ES6+",
+  "Type Script",
   "GitHub Pull Request & Review",
   "React Hooks",
   "NPM",
@@ -22,12 +23,12 @@ export const skills = [
   "CSS BEM convetion",
   "Teamwork",
   "Trello",
+  "Scrum"
 ];
 
 export const newSkills = [
-  "TypeScript",
   "React Native",
-  "Node.js",
   "React Context",
   "JS classes",
+  "Mastering my already acquired skills"
 ];
