@@ -1,7 +1,6 @@
 import { styleIcon } from "./styled";
 import { ReactComponent as GitHubIcon } from "./Icons/github_icon.svg";
 import { ReactComponent as LinkedInIcon } from "./Icons/linkedin_icon.svg";
-import { ReactComponent as InstagramIcon } from "./Icons/instagram_icon.svg";
 
 export const socials = [
   {
@@ -13,10 +12,5 @@ export const socials = [
     name: "LinkedIn",
     url: "https://linkedin.com/in/karol-galera-567690251",
     Icon: styleIcon(LinkedInIcon),
-  },
-  {
-    name: "Instagram",
-    url: "https://instagram.com",
-    Icon: styleIcon(InstagramIcon),
   },
 ];
