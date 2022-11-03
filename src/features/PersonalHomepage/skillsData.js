@@ -23,6 +23,7 @@ export const skills = [
   "CSS BEM convetion",
   "Teamwork",
   "Trello",
+  "Figma",
   "Scrum"
 ];
 
