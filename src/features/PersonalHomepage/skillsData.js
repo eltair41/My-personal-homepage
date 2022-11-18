@@ -25,7 +25,7 @@ export const skills = [
   "Trello",
   "Figma",
   "Scrum",
-  "Next.js (basiscs)",
+  "Next.js (basics)",
   "GraphQL",
   "Apollo Client"
 ];
