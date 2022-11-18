@@ -24,12 +24,15 @@ export const skills = [
   "Teamwork",
   "Trello",
   "Figma",
-  "Scrum"
+  "Scrum",
+  "Next.js (basiscs)",
+  "GraphQL",
+  "Apollo Client"
 ];
 
 export const newSkills = [
   "React Native",
   "React Context",
-  "JS classes",
-  "Mastering my already acquired skills"
+  "Next.js",
+  "Mastering my already acquired skills",
 ];
