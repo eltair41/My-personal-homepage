@@ -5,7 +5,7 @@ export const skills = [
   "Responsive web Design",
   "React",
   "Java Script: ES6+",
-  "Type Script",
+  "Type Script (basics)",
   "GitHub Pull Request & Review",
   "React Hooks",
   "NPM",
@@ -25,14 +25,24 @@ export const skills = [
   "Trello",
   "Figma",
   "Scrum",
-  "Next.js (basics)",
+  "Next.js",
   "GraphQL",
-  "Apollo Client"
+  "Apollo Client",
+  "MongoDB",
+  "React Context",
+  "React Portals",
+  "Next hooks",
+  "Static Site Generation",
+  "Server Side Rendering",
+  "API Routes",
+  "Next-Auth",
+  "CSS modules",
+  "CSS variables",
 ];
 
 export const newSkills = [
   "React Native",
-  "React Context",
-  "Next.js",
+  "More TypeScript",
+  "TanStack Query",
   "Mastering my already acquired skills",
 ];
