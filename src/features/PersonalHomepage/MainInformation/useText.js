@@ -18,12 +18,12 @@ const useText = (phrases) => {
       setText(updateText);
 
       if (!isDeleting && text === fullText) {
-        const wait = setTimeout(() => {
+        const end = setTimeout(() => {
           setIsDeleting(true);
           setDelay(40);
         }, 3000);
 
-        return () => clearTimeout(wait);
+        return () => clearTimeout(end);
       } else if (isDeleting && text === "") {
         const start = setTimeout(() => {
           setIsDeleting(false);
@@ -35,7 +35,7 @@ const useText = (phrases) => {
       }
     };
 
-    let ticker = setInterval(() => {
+    const ticker = setInterval(() => {
       loop();
     }, delay);
 
