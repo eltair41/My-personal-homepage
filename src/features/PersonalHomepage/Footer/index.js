@@ -1,11 +1,15 @@
 import { email } from "../email";
 import SocialIcons from "./SocialIcons";
 import { Address, Email, EmailWrapper, LetsTalk, Paragraph, Wrapper } from "./styled";
+import useText from "../MainInformation/useText";
+import { endPhrases } from "../MainInformation/phrases";
 
 const Footer = () => {
+  const text = useText(endPhrases);
+
   return (
     <Wrapper>
-      <LetsTalk>Let's Talk</LetsTalk>
+      <LetsTalk>Let's talk, {text}</LetsTalk>
       <Address>
         <EmailWrapper>
           <Email href={`mailto:${email}`}>
