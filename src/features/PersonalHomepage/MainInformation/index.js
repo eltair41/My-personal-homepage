@@ -5,7 +5,6 @@ import {
   Name,
   Summary,
   StyledButton,
-  Icon,
 } from "./styled";
 import charlesGaleraProfile from "./charles.jpeg";
 import { email } from "../email";
@@ -26,7 +25,6 @@ const MainInformation = () => {
           new challenges and jobs opportunities.
         </Summary>
         <StyledButton href={`mailto:${email}`} title={email}>
-          <Icon />
           Hire Me
         </StyledButton>
       </div>
