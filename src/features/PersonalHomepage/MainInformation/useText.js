@@ -21,7 +21,7 @@ const useText = (phrases) => {
         const end = setTimeout(() => {
           setIsDeleting(true);
           setDelay(40);
-        }, 3000);
+        }, 2000);
 
         return () => clearTimeout(end);
       } else if (isDeleting && text === "") {
