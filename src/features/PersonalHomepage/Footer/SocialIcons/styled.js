@@ -13,8 +13,14 @@ export const List = styled.ul`
 `;
 
 export const Item = styled.li`
+  transition: transform 0.3s;
+
   &:not(:last-child) {
     margin-right: 24px;
+  }
+
+  &:hover {
+    transform: translateY(-5px);
   }
 
   @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
