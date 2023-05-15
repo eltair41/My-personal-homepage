@@ -76,7 +76,7 @@ export const LinkValue = styled.dd`
 `;
 
 export const Link = styled.a`
-  color: ${({theme}) => theme.colors.primary};
+  color: ${({theme}) => theme.colors.tile.text};
   padding-bottom: 1px;
   text-decoration: none;
   border-bottom: 1px solid ${({theme}) => α(theme.colors.primary, 0.3)};
