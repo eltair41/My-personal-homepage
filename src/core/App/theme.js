@@ -1,11 +1,8 @@
 const colorNames = {
-  scienceBlue: "#0366D6",
-  blumine: "#1F5189",
-  dodgerBlue: "#2188FF",
-  shipCove: "#6D93BE",
-  anakiwa: "#8CC2FF",
-  tropicalBlue: "#CDE0F7",
-  ironTransparent: "rgba(209, 213, 218, 0.3);",
+  torchRed: "#FF0046",
+  oldBrick: "#891F30",
+  azalea: "#F7CDD0",
+  carnation: "#F44864",
   white: "#FFFFFF",
   whiteLilac: "#FBFBFE",
   porcelain: "#F2F3F4",
@@ -13,8 +10,8 @@ const colorNames = {
   slateGrey: "#6E7E91",
   doveGrey: "#6D6D6D",
   tundora: "#414141",
-  mineShaft: "#252525",
-  mineShaftLighter: "#313131",
+  swamp: "#00141E",
+  firefly: "#0F2D37",
 };
 
 const common = {
@@ -23,31 +20,31 @@ const common = {
     tabletVerticalMax: 991,
     tabletHorizontalMax: 1199,
   },
-  boxShadow: "0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03)",
+  boxShadow:
+    "0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03)",
   borderRadiusSmall: "4px",
 };
 
 export const themeLight = {
   ...common,
   colors: {
-    primary: colorNames.scienceBlue,
-    textPrimary: colorNames.mineShaft,
+    primary: colorNames.torchRed,
+    textPrimary: colorNames.swamp,
     site: {
       background: colorNames.whiteLilac,
       text: colorNames.slateGrey,
     },
     buttonLink: {
       text: colorNames.white,
-      border: colorNames.ironTransparent,
-      shadow: colorNames.anakiwa,
       hover: colorNames.porcelain,
     },
     boxBackground: colorNames.white,
     headerLine: colorNames.mercury,
     tile: {
+      text: colorNames.torchRed,
       border: colorNames.porcelain,
-      borderHover: colorNames.tropicalBlue,
-      header: colorNames.scienceBlue,
+      borderHover: colorNames.azalea,
+      header: colorNames.torchRed,
     },
     themeSwitch: {
       background: colorNames.mercury,
@@ -59,28 +56,27 @@ export const themeLight = {
 export const themeDark = {
   ...common,
   colors: {
-    primary: colorNames.dodgerBlue,
+    primary: colorNames.torchRed,
     textPrimary: colorNames.white,
     site: {
-      background: colorNames.mineShaft,
+      background: colorNames.swamp,
       text: colorNames.white,
     },
     buttonLink: {
       text: colorNames.white,
-      border: colorNames.ironTransparent,
-      shadow: colorNames.shipCove,
       hover: colorNames.whiteLilac,
     },
-    boxBackground: colorNames.mineShaftLighter,
+    boxBackground: colorNames.firefly,
     headerLine: colorNames.tundora,
     tile: {
+      text: colorNames.carnation,
       border: colorNames.tundora,
-      borderHover: colorNames.blumine,
+      borderHover: colorNames.oldBrick,
       header: colorNames.white,
     },
     themeSwitch: {
       background: colorNames.doveGrey,
-      icon: colorNames.mineShaft,
+      icon: colorNames.swamp,
     },
   },
 };
