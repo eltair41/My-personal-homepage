@@ -55,3 +55,5 @@ export const newSkills = [
   "TanStack Query",
   "Mastering my already acquired skills",
 ];
+
+
