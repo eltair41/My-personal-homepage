@@ -20,7 +20,7 @@ const Error = () => {
         Go to GitHub
       </ButtonLink>
     </Wrapper>
-  )
+  );
 };
 
 export default Error;
