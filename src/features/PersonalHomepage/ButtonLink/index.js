@@ -8,7 +8,7 @@ export const ButtonLink = styled.a`
   padding: 16px 18px;
   color: ${({ theme }) => theme.colors.buttonLink.text};
   background: ${({ theme }) => theme.colors.primary};
-  border: 2px solid ${({ theme }) => theme.colors.buttonLink.border};
+  border: 4px solid ${({ theme }) => theme.colors.primary};
   border-radius: ${({ theme }) => theme.borderRadiusSmall};
   z-index: 1;
 
@@ -22,14 +22,17 @@ export const ButtonLink = styled.a`
     background: ${({ theme }) => theme.colors.buttonLink.hover};
     top: 0;
     left: 0;
-    width: 0;
+    width: 100%;
     height: 100%;
     z-index: -1;
-    transition: 0.5s;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: right;
   }
 
   &:hover::before {
-    width: 100%;
+    transform: scaleX(1);
+    transform-origin: left;
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
