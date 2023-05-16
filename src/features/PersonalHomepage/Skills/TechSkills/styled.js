@@ -1,6 +1,17 @@
 import styled, { keyframes } from "styled-components";
 import { ReactComponent as BulletIcon } from "./bullet_icon.svg";
 
+const fadeIn = keyframes`
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+`;
+
 export const Tile = styled.div`
   display: flex;
   align-items: center;
@@ -17,7 +28,7 @@ export const Tile = styled.div`
 
 export const styledIcon = (icon) =>
   styled(icon).attrs(({ theme }) => ({
-    fill: theme.colors.site.text,
+    fill: theme.iconColor,
     width: "40px",
     height: "40px",
   }))``;
@@ -30,6 +41,31 @@ export const SkillsContent = styled.li`
   color: ${({ theme }) => theme.colors.site.text};
   border-radius: ${({ theme }) => theme.borderRadiusSmall};
   text-align: left;
+  opacity: 0;
+
+  &.animate {
+    animation: ${fadeIn} 1s forwards;
+  }
+
+  &:nth-child(1) {
+    animation-delay: 0ms;
+  }
+
+  &:nth-child(2) {
+    animation-delay: 100ms;
+  }
+
+  &:nth-child(3) {
+    animation-delay: 200ms;
+  }
+
+  &:nth-child(4) {
+    animation-delay: 300ms;
+  }
+
+  &:nth-child(5) {
+    animation-delay: 400ms;
+  }
 `;
 
 export const List = styled.ul`
