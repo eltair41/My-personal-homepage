@@ -13,12 +13,14 @@ const fadeIn = keyframes`
 `;
 
 export const StyledHeaader = styled(SubHeader)`
-  margin-bottom: 24px;
   text-align: center;
-  margin-top: 124px;
+  padding-top: 74px;
+  padding-bottom: 24px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     padding-bottom: 12px;
+    padding-left: 0;
+    padding-right: 0;
   }
 `;
 
@@ -30,9 +32,13 @@ export const List = styled.ul`
   list-style: none;
   padding: 0;
 
+  @media (max-width: ${({ theme }) => theme.breakpoints.tabletVerticalMax}px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    grid-template-columns: 1fr;
     padding: 16px;
-    margin-top: 48px;
   }
 `;
 
@@ -69,5 +75,13 @@ export const Item = styled.li`
 
   &:nth-child(4) {
     animation-delay: 300ms;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.tabletHorizontalMax}px) {
+    font-size: 18px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    font-size: 16px;
   }
 `;

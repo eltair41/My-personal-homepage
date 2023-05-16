@@ -24,18 +24,20 @@ export const Tile = styled.div`
   text-align: center;
   padding: 15px;
   background-color: ${({ theme }) => theme.colors.primary};
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    font-size: 16px;
+  }
 `;
 
 export const styledIcon = (icon) =>
   styled(icon).attrs(({ theme }) => ({
     fill: theme.iconColor,
-    width: "40px",
-    height: "40px",
+    width: "30px",
+    height: "30px",
   }))``;
 
 export const SkillsContent = styled.li`
-  font-size: 20px;
-  font-weight: 600;
   background: ${({ theme }) => theme.colors.boxBackground};
   border: 6px solid ${({ theme }) => theme.colors.primary};
   color: ${({ theme }) => theme.colors.site.text};
@@ -80,7 +82,7 @@ export const List = styled.ul`
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-    margin-top: 12px;
+    margin: 12px 5px 15px 8px;
     font-size: 14px;
   }
 `;
