@@ -15,7 +15,7 @@ This is my personal homepage that lists all the skills I have learned and the pr
 ## How it works?
  It's really simple, just browse the site but remember that the portfolio will show up after 2 seconds of downloading otherwise you'll see a warning with a button that when clicked will take you directly to my GitHub 😁
 
- If you want to contact me just click button "Hire me" or my e-mail adrres, which is in the footer. You can also use social icons that will take you to my social media.
+ If you want to contact me just click button "Hire me" or my e-mail address, which is in the footer. You can also use social icons that will take you to my social media.
 
  The theme switch is in the top right corner, if you want to change the mode just click it.
 
@@ -24,13 +24,14 @@ Project is created with:
 -  project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 - React hooks
 - React-redux
+- react-intersection-observer
 - Redux-Saga
 - reduxjs/toolkit
 - axios
 - alpha-color
 - styledComponents
 - styled-Normalize
-- CSS (Grid, Flexbox)
+- CSS (Grid, Flexbox, media queries)
 ## Available Scripts
 
 In the project directory, you can run:
