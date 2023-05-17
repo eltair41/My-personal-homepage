@@ -1,5 +1,5 @@
 import styled, { keyframes } from "styled-components";
-import { ReactComponent as BulletIcon } from "./bullet_icon.svg";
+import { ReactComponent as BulletIcon } from "./bulletIcon.svg";
 
 const fadeIn = keyframes`
   from {

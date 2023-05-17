@@ -1,5 +1,5 @@
 import styled, { css } from "styled-components";
-import { ReactComponent as SunIcon } from "./sun_icon.svg";
+import { ReactComponent as SunIcon } from "./sunIcon.svg";
 
 export const Wrapper = styled.div`
   display: flex;
